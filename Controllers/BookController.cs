@@ -1,17 +1,17 @@
 using Microsoft.AspNetCore.Mvc;
-using WebApi.BookOperations.GetBooks;
 using WebApi.DBOperations;
-using WebApi.BookOperations.CreateBook;
-using static WebApi.BookOperations.CreateBook.CreateBookCommand;
-using WebApi.BookOperations.GetBookDetail;
-using WebApi.BookOperations.UpdateBook;
-using WebApi.BookOperations.DeleteBook;
 using AutoMapper;
 using Microsoft.EntityFrameworkCore.Storage;
 using FluentValidation.Results;
 using FluentValidation;
+using WebApi.Application.BookOperations.Queries.GetBooks;
+using WebApi.Application.BookOperations.Queries.GetBookDetail;
+using static WebApi.Application.BookOperations.Commands.CreateBook.CreateBookCommand;
+using WebApi.Application.BookOperations.Commands.CreateBook;
+using WebApi.Application.Commands.BookOperations.UpdateBook;
+using WebApi.Application.BookOperations.DeleteBook;
 
-namespace WebApi.AddControllers
+namespace WebApi.Controllers
 {
 
     [ApiController]

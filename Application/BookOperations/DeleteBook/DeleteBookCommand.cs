@@ -4,9 +4,9 @@ using System.Collections.Generic;
 using System;
 using Microsoft.AspNetCore.Mvc;
 using System.Runtime.Intrinsics.X86;
-using WebApi.Common;
 
-namespace WebApi.BookOperations.DeleteBook
+
+namespace WebApi.Application.BookOperations.DeleteBook
 {
     public class DeleteBookCommand
     {
