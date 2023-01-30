@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hpl4ABiGUjzdow1NN+OI0wMAy7i406haqm804HHYYQxXd8FhDw7qMW6NUK/bw5MuGJsFpNzD8X44MJCB0ZT4Hw==",
+  "dgSpecHash": "w9mhBU2aXwrL78cfyDeK4+9PpqLmZgdx+JjLFUVYMnuirzxcWQhlp4wpEK+I4e2jmz6EIna8+654fMFola4zLw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\aalti\\Desktop\\Pratikler\\BookStore\\Webapi\\WebApi.csproj",
+  "projectFilePath": "c:\\Users\\aalti\\Desktop\\Pratikler\\BookStore\\WebApi\\WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aalti\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\aalti\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
